@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  Scan bee
+//
+//  Created by 秦焕 on 2019/1/2.
+//  Copyright © 2019年 秦焕. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//文件包含
+#import "MyAFNetworking.h"
+#import "Header.h"
+#import "MyUtils.h"
+#import "MJExtension.h"
+#import <Masonry/Masonry.h>
+#import "UIImageView+WebCache.h"
+#import <SVProgressHUD.h>
+#import "SCBLoadingShareView.h"
+#import "MJRefresh.h"
+//#import "MLCustomHud.h"
+// 宏定义
+#define WS(weakSelf)    __weak __typeof(&*self) weakSelf = self
+#define statusHeight [UIApplication sharedApplication].statusBarFrame.size.height
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
